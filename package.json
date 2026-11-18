@@ -1,0 +1,14 @@
+{
+  "name": "biomed-clinical-radar-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for real-time PubMed medical papers, ClinicalTrials.gov studies, and OpenFDA drug label intelligence.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "biomed-clinical-radar-mcp": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  }
+}
